@@ -93,4 +93,4 @@ client.on('messageCreate', message => {
         message.channel.send('hello, i am Giffy')
     }
 })
-client.login(token);
+client.login(process.env.DISCORD_TOKEN);
